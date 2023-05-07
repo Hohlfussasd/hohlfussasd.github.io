@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortal Kombat Idle</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <center>
+        <div class="points">
+            <span id="blood">0</span> blood<br>
+            <span id="bloodPerSecond">0</span> bloodPerSecond
+        </div>
+        <div class="table">
+            <table class="valikko unselectable" onclick="buyScorpion()">
+                <tr>
+                    <td id="image"><img src="images/scorpion.png"></td>
+                    <td id="nameAndCost">
+                        <p>Scorpion</p>
+                        <p><span id="scorpionCost">10</span> blood</p>
+                    </td>
+                    <td id="amount"><span id="scorpion">0</span></td>
+                </tr>
+            </table>
+            <br>
+            <table class="valikko unselectable" onclick="buyBaraka()">
+                <tr>
+                    <td id="image"><img src="images/baraka.png"></td>
+                    <td id="nameAndCost">
+                        <p>Baraka</p>
+                        <p><span id="barakaCost">100</span> blood</p>
+                    </td>
+                    <td id="amount"><span id="baraka">0</span></td>
+                </tr>
+            </table>
+            <br>
+            <table class="valikko unselectable" onclick="buyNoobSaibot()">
+                <tr>
+                    <td id="image"><img src="images/noobsaibot.png"></td>
+                    <td id="nameAndCost">
+                        <p>Noob Saibot</p>
+                        <p><span id="noobSaibotCost">1000</span> blood</p>
+                    </td>
+                    <td id="amount"><span id="noobSaibot">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

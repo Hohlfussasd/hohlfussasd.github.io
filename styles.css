@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(0, 0, 0, 0.798);
+}
+
+.table {
+    background-color: #00000038;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: auto;
+    margin: 10px 0px 10px 0px;
+}
+
+.table:hover {
+    background-color: gray;
+    transition: all .2s ease-in-out;
+}
+
+.table #image {
+    width: 50%;
+}
+
+.table img {
+    height: 248px;
+    width: 248px;
+}
+
+.table #nameAndCost p {
+    color: red;
+    margin: 0px;
+    width: 60%;
+}
+
+.table #nameAndCost p:first-of-type {
+    font-size: 24px;
+}
+
+.table #amount  {
+    font-size: 48px;
+    color: #3b719d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 15%;
+}
+
+.points {
+    color: crimson;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+.unselectable {
+    user-select: none;
+}
