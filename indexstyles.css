@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+.text {
+    text-align: center;
+    padding-top: 10%;
+}
+
+#chooseyourcharacter {
+    text-align: center;
+    font-family: 'Metal Mania', cursive;
+    color: red;
+    font-size: 600%;
+}
+

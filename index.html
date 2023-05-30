@@ -5,53 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortal Kombat Idle</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexstyles.css" type="text/css">
 </head>
 <body>
-    <center>
-        <div class="points">
-            <span id="blood">2000.00</span> blood<br>
-            <span id="bloodThisSecond">0.00</span> bloodPerSecond
-        </div>
-        <div class="table">
-            <table class="valikko unselectable" onclick="buyScorpions()">
-                <tr>
-                    <td class="image"><img src="images/scorpion.png"></td>
-                    <td class="nameAndCost">
-                        <p>Scorpions</p>
-                        <p><span id="scorpionsCost">10.00</span> blood</p>
-                    </td>
-                    <td class="amount"><span id="scorpions">0</span></td>
-                </tr>
-            </table>
-            <br>
-            <table class="valikko unselectable" onclick="buyBarakas()">
-                <tr>
-                    <td class="image"><img src="images/baraka.png"></td>
-                    <td class="nameAndCost">
-                        <p>Barakas</p>
-                        <p><span id="barakaCost">100.00</span> blood</p>
-                    </td>
-                    <td class="amount"><span id="barakas">0</span></td>
-                </tr>
-            </table>
-            <br>
-            <table class="valikko unselectable" onclick="buyNoobSaibots()">
-                <tr>
-                    <td class="image"><img src="images/noobsaibot.png"></td>
-                    <td class="nameAndCost">
-                        <p>Noob Saibots</p>
-                        <p><span id="noobSaibotCost">1000.00</span> blood</p>
-                    </td>
-                    <td class="amount"><span id="noobSaibots">0</span></td>
-                </tr>
-            </table>
-        </div>
-    </center>
-    <script src="main.js"></script>
-    <div class="sectionFooter">
-        <h5>MK Idle</h5>
-        <button onclick="resetGame();">Reset</button>
+    <div class="text">
+        <a href="selectfirstcharacter/firstcharactermenu.html" id="chooseyourcharacter">Choose Your Character</a>
     </div>
 </body>
 </html>
