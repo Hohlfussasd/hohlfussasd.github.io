@@ -10,44 +10,48 @@
 <body>
     <center>
         <div class="points">
-            <span id="blood">0</span> blood<br>
-            <span id="bloodPerSecond">0</span> bloodPerSecond
+            <span id="blood">2000.00</span> blood<br>
+            <span id="bloodThisSecond">0.00</span> bloodPerSecond
         </div>
         <div class="table">
-            <table class="valikko unselectable" onclick="buyScorpion()">
+            <table class="valikko unselectable" onclick="buyScorpions()">
                 <tr>
-                    <td id="image"><img src="images/scorpion.png"></td>
-                    <td id="nameAndCost">
-                        <p>Scorpion</p>
-                        <p><span id="scorpionCost">10</span> blood</p>
+                    <td class="image"><img src="images/scorpion.png"></td>
+                    <td class="nameAndCost">
+                        <p>Scorpions</p>
+                        <p><span id="scorpionsCost">10.00</span> blood</p>
                     </td>
-                    <td id="amount"><span id="scorpion">0</span></td>
+                    <td class="amount"><span id="scorpions">0</span></td>
                 </tr>
             </table>
             <br>
-            <table class="valikko unselectable" onclick="buyBaraka()">
+            <table class="valikko unselectable" onclick="buyBarakas()">
                 <tr>
-                    <td id="image"><img src="images/baraka.png"></td>
-                    <td id="nameAndCost">
-                        <p>Baraka</p>
-                        <p><span id="barakaCost">100</span> blood</p>
+                    <td class="image"><img src="images/baraka.png"></td>
+                    <td class="nameAndCost">
+                        <p>Barakas</p>
+                        <p><span id="barakaCost">100.00</span> blood</p>
                     </td>
-                    <td id="amount"><span id="baraka">0</span></td>
+                    <td class="amount"><span id="barakas">0</span></td>
                 </tr>
             </table>
             <br>
-            <table class="valikko unselectable" onclick="buyNoobSaibot()">
+            <table class="valikko unselectable" onclick="buyNoobSaibots()">
                 <tr>
-                    <td id="image"><img src="images/noobsaibot.png"></td>
-                    <td id="nameAndCost">
-                        <p>Noob Saibot</p>
-                        <p><span id="noobSaibotCost">1000</span> blood</p>
+                    <td class="image"><img src="images/noobsaibot.png"></td>
+                    <td class="nameAndCost">
+                        <p>Noob Saibots</p>
+                        <p><span id="noobSaibotCost">1000.00</span> blood</p>
                     </td>
-                    <td id="amount"><span id="noobSaibot">0</span></td>
+                    <td class="amount"><span id="noobSaibots">0</span></td>
                 </tr>
             </table>
         </div>
     </center>
     <script src="main.js"></script>
+    <div class="sectionFooter">
+        <h5>MK Idle</h5>
+        <button onclick="resetGame();">Reset</button>
+    </div>
 </body>
 </html>
