@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+.character {
+    background-color: rgba(24, 21, 21, 0.806);
+    border-radius: 10px;
+    width: 450px;
+    height: 400px;
+}
