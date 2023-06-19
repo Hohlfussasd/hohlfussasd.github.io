@@ -8,3 +8,10 @@ body {
     width: 250px;
     height: 250px;
 }
+
+.stats {
+    font-family: 'Metal Mania', cursive;
+    font-size: 40px;
+    color: crimson;
+}
+
